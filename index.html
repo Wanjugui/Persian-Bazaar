@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Bazaar Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <h2>Admin Dashboard</h2>
+        <ul class="sidebar-menu">
+            <li><a href="#" data-module="dashboard">Dashboard Overview</a></li>
+            <li><a href="#" data-module="product-management">Product Management</a></li>
+            <li><a href="#" data-module="order-management">Order Management</a></li>
+            <li><a href="#" data-module="vendor-management">Vendor Management</a></li>
+            <li><a href="#" data-module="reports">Reports</a></li>
+            <li><a href="#" data-module="settings">Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="profile">
+                <span>Admin Name</span>
+                <a href="#" class="logout">Logout</a>
+            </div>
+            <div class="notifications">
+                <span>Notifications</span>
+                <div class="notification-count">0</div>
+            </div>
+        </div>
+        
+        <!-- Dynamic Content Area -->
+        <div id="content-area">
+            <h1>Welcome to the Admin Dashboard</h1>
+            <p>Select an option from the sidebar to view details.</p>
+        </div>
+    </div>
+</body>
+</html>
